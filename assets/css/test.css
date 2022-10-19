@@ -1,0 +1,172 @@
+.jsgrid-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.jsgrid-table > thead > tr > th,
+.jsgrid-table > tbody > tr > th,
+.jsgrid-table > tfoot > tr > th,
+.jsgrid-table > thead > tr > td,
+.jsgrid-table > tbody > tr > td,
+.jsgrid-table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.jsgrid-table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.jsgrid-table > caption + thead > tr:first-child > th,
+.jsgrid-table > colgroup + thead > tr:first-child > th,
+.jsgrid-table > thead:first-child > tr:first-child > th,
+.jsgrid-table > caption + thead > tr:first-child > td,
+.jsgrid-table > colgroup + thead > tr:first-child > td,
+.jsgrid-table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.jsgrid-table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.jsgrid-table .jsgrid-table {
+  background-color: #fff;
+}
+.jsgrid-table-condensed > thead > tr > th,
+.jsgrid-table-condensed > tbody > tr > th,
+.jsgrid-table-condensed > tfoot > tr > th,
+.jsgrid-table-condensed > thead > tr > td,
+.jsgrid-table-condensed > tbody > tr > td,
+.jsgrid-table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+.jsgrid-table-bordered {
+  border: 1px solid #ddd;
+}
+.jsgrid-table-bordered > thead > tr > th,
+.jsgrid-table-bordered > tbody > tr > th,
+.jsgrid-table-bordered > tfoot > tr > th,
+.jsgrid-table-bordered > thead > tr > td,
+.jsgrid-table-bordered > tbody > tr > td,
+.jsgrid-table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.jsgrid-table-bordered > thead > tr > th,
+.jsgrid-table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.jsgrid-table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+.jsgrid-table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}
+table col[class*="col-"] {
+  position: static;
+  display:.jsgrid-table-column;
+  float: none;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  display:.jsgrid-table-cell;
+  float: none;
+}
+.jsgrid-table > thead > tr > td.active,
+.jsgrid-table > tbody > tr > td.active,
+.jsgrid-table > tfoot > tr > td.active,
+.jsgrid-table > thead > tr > th.active,
+.jsgrid-table > tbody > tr > th.active,
+.jsgrid-table > tfoot > tr > th.active,
+.jsgrid-table > thead > tr.active > td,
+.jsgrid-table > tbody > tr.active > td,
+.jsgrid-table > tfoot > tr.active > td,
+.jsgrid-table > thead > tr.active > th,
+.jsgrid-table > tbody > tr.active > th,
+.jsgrid-table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+.jsgrid-table-hover > tbody > tr > td.active:hover,
+.jsgrid-table-hover > tbody > tr > th.active:hover,
+.jsgrid-table-hover > tbody > tr.active:hover > td,
+.jsgrid-table-hover > tbody > tr:hover > .active,
+.jsgrid-table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+.jsgrid-table > thead > tr > td.success,
+.jsgrid-table > tbody > tr > td.success,
+.jsgrid-table > tfoot > tr > td.success,
+.jsgrid-table > thead > tr > th.success,
+.jsgrid-table > tbody > tr > th.success,
+.jsgrid-table > tfoot > tr > th.success,
+.jsgrid-table > thead > tr.success > td,
+.jsgrid-table > tbody > tr.success > td,
+.jsgrid-table > tfoot > tr.success > td,
+.jsgrid-table > thead > tr.success > th,
+.jsgrid-table > tbody > tr.success > th,
+.jsgrid-table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+.jsgrid-table-hover > tbody > tr > td.success:hover,
+.jsgrid-table-hover > tbody > tr > th.success:hover,
+.jsgrid-table-hover > tbody > tr.success:hover > td,
+.jsgrid-table-hover > tbody > tr:hover > .success,
+.jsgrid-table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+.jsgrid-table > thead > tr > td.info,
+.jsgrid-table > tbody > tr > td.info,
+.jsgrid-table > tfoot > tr > td.info,
+.jsgrid-table > thead > tr > th.info,
+.jsgrid-table > tbody > tr > th.info,
+.jsgrid-table > tfoot > tr > th.info,
+.jsgrid-table > thead > tr.info > td,
+.jsgrid-table > tbody > tr.info > td,
+.jsgrid-table > tfoot > tr.info > td,
+.jsgrid-table > thead > tr.info > th,
+.jsgrid-table > tbody > tr.info > th,
+.jsgrid-table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+.jsgrid-table-hover > tbody > tr > td.info:hover,
+.jsgrid-table-hover > tbody > tr > th.info:hover,
+.jsgrid-table-hover > tbody > tr.info:hover > td,
+.jsgrid-table-hover > tbody > tr:hover > .info,
+.jsgrid-table-hover > tbody > tr.info:hover > th {
+  background-color: #c4e3f3;
+}
+.jsgrid-table > thead > tr > td.warning,
+.jsgrid-table > tbody > tr > td.warning,
+.jsgrid-table > tfoot > tr > td.warning,
+.jsgrid-table > thead > tr > th.warning,
+.jsgrid-table > tbody > tr > th.warning,
+.jsgrid-table > tfoot > tr > th.warning,
+.jsgrid-table > thead > tr.warning > td,
+.jsgrid-table > tbody > tr.warning > td,
+.jsgrid-table > tfoot > tr.warning > td,
+.jsgrid-table > thead > tr.warning > th,
+.jsgrid-table > tbody > tr.warning > th,
+.jsgrid-table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+}
+.jsgrid-table-hover > tbody > tr > td.warning:hover,
+.jsgrid-table-hover > tbody > tr > th.warning:hover,
+.jsgrid-table-hover > tbody > tr.warning:hover > td,
+.jsgrid-table-hover > tbody > tr:hover > .warning,
+.jsgrid-table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+.jsgrid-table > thead > tr > td.danger,
+.jsgrid-table > tbody > tr > td.danger,
+.jsgrid-table > tfoot > tr > td.danger,
+.jsgrid-table > thead > tr > th.danger,
+.jsgrid-table > tbody > tr > th.danger,
+.jsgrid-table > tfoot > tr > th.danger,
+.jsgrid-table > thead > tr.danger > td,
+.jsgrid-table > tbody > tr.danger > td,
+.jsgrid-table > tfoot > tr.danger > td,
+.jsgrid-table > thead > tr.danger > th,
+.jsgrid-table > tbody > tr.danger > th,
+.jsgrid-table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}

@@ -1,0 +1,3 @@
+.jsgrid-insert-row,#transaction_cancel,#transaction_save{
+    display: none !important;
+}

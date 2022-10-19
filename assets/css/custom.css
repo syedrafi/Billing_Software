@@ -1,0 +1,346 @@
+.navbar-custom .navbar-brand {
+    padding: 5px;
+}
+.navbar-custom .nav{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.navbar-custom .nav li a{
+    color:#404040;
+    padding: 10px 10px 10px 10px;
+}
+.navbar-custom .nav li a:hover{
+    color:#0085a1;
+}
+
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus{
+    color:#000;
+}
+.jsgrid{
+    font-size: 0.65em !important;
+}
+.navbar-custom{
+    position:relative;
+}
+#page-inner{
+    width: 95%;
+    margin: 0 auto;
+}
+.nav_holder{
+  border-bottom: 1px solid #D0D0D0;  
+  
+}
+.close_btn{
+    display: none;
+}
+.btn_holder{
+    margin-bottom: 10px;
+}
+.btn_holder .btn{
+    padding: 3px 6px;
+}
+.transaction_table{
+    font-size: 14px;
+}
+.edit-btn{
+    padding: 4px 15px;
+}
+#return_msg{
+    color: #0085A1;
+}
+.nopadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-left: 0px !important;
+}
+#tax_percent{
+    width: 45px;
+}
+.total_tax,.with_tax,.without_tax{
+    font-size: 14px !important;
+   
+}
+
+.total_tax:before,.with_tax:before,.without_tax:before{
+    
+    content: "Rs.";
+}
+.jsgrid-grid-body td {
+    border: 1px solid #D0D0D0 !important;
+}
+.btn{
+    padding: 4px 9px;
+}
+.nav-tabs li a{
+  background-color: #449d44;
+  color:white !important;
+}
+.nav-tabs .active a,.nav-tabs  a:hover{
+  background-color:  #3c763d !important;
+  color:white;
+}
+.jsgrid-align-left {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.fm-button{
+    padding: 0.6em 0.5em 0.2em ;
+    margin:2px 4px 0 0 ;
+}
+.ui-search-input input,.ui-search-input select{
+    width: 100%;
+}
+.select2-results__options li{
+    font-size: 11px !important;
+}
+.no_display{
+    visibility: hidden;
+}
+.serial_td{
+    word-wrap: break-word !important;
+}
+.serial_no_holder{
+  
+      word-wrap: break-word !important;
+      
+}
+.footer_row{
+    font-weight: bold;
+}
+.navbar-custom .nav li a{
+  font-size: 11px;
+}
+.EditTable td textarea{
+    min-width: 120px !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    padding-bottom: 20px;
+}
+.load_more,.btn-login{
+    width: 180px;
+   margin: 20px auto;
+}
+.loading_btn{
+      width: 180px;
+    margin: 20px auto;
+  //  display: none;
+}
+.alert{
+   margin: 20px;
+    text-align: center;
+    padding: 5px ;
+}
+.loading-alert{
+    margin-top: 10px;
+}
+.input-xs{
+    width: 50%;
+}
+.jsgrid-table{
+    max-width: 100% !important;
+    width: 100% !important;
+}
+.jsgrid-table {
+  width: 100% !importat;
+  max-width: 100% !important;
+  margin-bottom: 20px !important;
+}
+.jsgrid-table > thead > tr > th,
+.jsgrid-table > tbody > tr > th,
+.jsgrid-table > tfoot > tr > th,
+.jsgrid-table > thead > tr > td,
+.jsgrid-table > tbody > tr > td,
+.jsgrid-table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.jsgrid-table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.jsgrid-table > caption + thead > tr:first-child > th,
+.jsgrid-table > colgroup + thead > tr:first-child > th,
+.jsgrid-table > thead:first-child > tr:first-child > th,
+.jsgrid-table > caption + thead > tr:first-child > td,
+.jsgrid-table > colgroup + thead > tr:first-child > td,
+.jsgrid-table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.jsgrid-table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+.jsgrid-table .jsgrid-table {
+  background-color: #fff;
+}
+.jsgrid-table-condensed > thead > tr > th,
+.jsgrid-table-condensed > tbody > tr > th,
+.jsgrid-table-condensed > tfoot > tr > th,
+.jsgrid-table-condensed > thead > tr > td,
+.jsgrid-table-condensed > tbody > tr > td,
+.jsgrid-table-condensed > tfoot > tr > td {
+  padding: 5px;
+}
+.jsgrid-table-bordered {
+  border: 1px solid #ddd;
+}
+.jsgrid-table-bordered > thead > tr > th,
+.jsgrid-table-bordered > tbody > tr > th,
+.jsgrid-table-bordered > tfoot > tr > th,
+.jsgrid-table-bordered > thead > tr > td,
+.jsgrid-table-bordered > tbody > tr > td,
+.jsgrid-table-bordered > tfoot > tr > td {
+  border: 1px solid #ddd;
+}
+.jsgrid-table-bordered > thead > tr > th,
+.jsgrid-table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+}
+.jsgrid-table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+.jsgrid-table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}
+table col[class*="col-"] {
+  position: static;
+  display:.jsgrid-table-column;
+  float: none;
+}
+table td[class*="col-"],
+table th[class*="col-"] {
+  position: static;
+  display:.jsgrid-table-cell;
+  float: none;
+}
+.jsgrid-table > thead > tr > td.active,
+.jsgrid-table > tbody > tr > td.active,
+.jsgrid-table > tfoot > tr > td.active,
+.jsgrid-table > thead > tr > th.active,
+.jsgrid-table > tbody > tr > th.active,
+.jsgrid-table > tfoot > tr > th.active,
+.jsgrid-table > thead > tr.active > td,
+.jsgrid-table > tbody > tr.active > td,
+.jsgrid-table > tfoot > tr.active > td,
+.jsgrid-table > thead > tr.active > th,
+.jsgrid-table > tbody > tr.active > th,
+.jsgrid-table > tfoot > tr.active > th {
+  background-color: #f5f5f5;
+}
+.jsgrid-table-hover > tbody > tr > td.active:hover,
+.jsgrid-table-hover > tbody > tr > th.active:hover,
+.jsgrid-table-hover > tbody > tr.active:hover > td,
+.jsgrid-table-hover > tbody > tr:hover > .active,
+.jsgrid-table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+.jsgrid-table > thead > tr > td.success,
+.jsgrid-table > tbody > tr > td.success,
+.jsgrid-table > tfoot > tr > td.success,
+.jsgrid-table > thead > tr > th.success,
+.jsgrid-table > tbody > tr > th.success,
+.jsgrid-table > tfoot > tr > th.success,
+.jsgrid-table > thead > tr.success > td,
+.jsgrid-table > tbody > tr.success > td,
+.jsgrid-table > tfoot > tr.success > td,
+.jsgrid-table > thead > tr.success > th,
+.jsgrid-table > tbody > tr.success > th,
+.jsgrid-table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+.jsgrid-table-hover > tbody > tr > td.success:hover,
+.jsgrid-table-hover > tbody > tr > th.success:hover,
+.jsgrid-table-hover > tbody > tr.success:hover > td,
+.jsgrid-table-hover > tbody > tr:hover > .success,
+.jsgrid-table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+.jsgrid-table > thead > tr > td.info,
+.jsgrid-table > tbody > tr > td.info,
+.jsgrid-table > tfoot > tr > td.info,
+.jsgrid-table > thead > tr > th.info,
+.jsgrid-table > tbody > tr > th.info,
+.jsgrid-table > tfoot > tr > th.info,
+.jsgrid-table > thead > tr.info > td,
+.jsgrid-table > tbody > tr.info > td,
+.jsgrid-table > tfoot > tr.info > td,
+.jsgrid-table > thead > tr.info > th,
+.jsgrid-table > tbody > tr.info > th,
+.jsgrid-table > tfoot > tr.info > th {
+  background-color: #d9edf7;
+}
+.jsgrid-table-hover > tbody > tr > td.info:hover,
+.jsgrid-table-hover > tbody > tr > th.info:hover,
+.jsgrid-table-hover > tbody > tr.info:hover > td,
+.jsgrid-table-hover > tbody > tr:hover > .info,
+.jsgrid-table-hover > tbody > tr.info:hover > th {
+  background-color: #c4e3f3;
+}
+.jsgrid-table > thead > tr > td.warning,
+.jsgrid-table > tbody > tr > td.warning,
+.jsgrid-table > tfoot > tr > td.warning,
+.jsgrid-table > thead > tr > th.warning,
+.jsgrid-table > tbody > tr > th.warning,
+.jsgrid-table > tfoot > tr > th.warning,
+.jsgrid-table > thead > tr.warning > td,
+.jsgrid-table > tbody > tr.warning > td,
+.jsgrid-table > tfoot > tr.warning > td,
+.jsgrid-table > thead > tr.warning > th,
+.jsgrid-table > tbody > tr.warning > th,
+.jsgrid-table > tfoot > tr.warning > th {
+  background-color: #fcf8e3;
+}
+.jsgrid-table-hover > tbody > tr > td.warning:hover,
+.jsgrid-table-hover > tbody > tr > th.warning:hover,
+.jsgrid-table-hover > tbody > tr.warning:hover > td,
+.jsgrid-table-hover > tbody > tr:hover > .warning,
+.jsgrid-table-hover > tbody > tr.warning:hover > th {
+  background-color: #faf2cc;
+}
+.jsgrid-table > thead > tr > td.danger,
+.jsgrid-table > tbody > tr > td.danger,
+.jsgrid-table > tfoot > tr > td.danger,
+.jsgrid-table > thead > tr > th.danger,
+.jsgrid-table > tbody > tr > th.danger,
+.jsgrid-table > tfoot > tr > th.danger,
+.jsgrid-table > thead > tr.danger > td,
+.jsgrid-table > tbody > tr.danger > td,
+.jsgrid-table > tfoot > tr.danger > td,
+.jsgrid-table > thead > tr.danger > th,
+.jsgrid-table > tbody > tr.danger > th,
+.jsgrid-table > tfoot > tr.danger > th {
+  background-color: #f2dede;
+}
+.ui-datepicker-div{
+    z-index: 9 !important;
+}
+@media print{
+    .jsgrid-table{
+        overflow: visible;
+    }
+    .jsgrid-grid-body{
+    height: auto !important;
+}
+.jsgrid-grid-body,.jsgrid{
+    height: auto !important;
+}
+ .jsgrid-table,.jsgrid{
+        overflow: visible !important;
+    }
+}
+#FrmGrid_pettygrid
+{
+    min-height: 370px;
+}
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td, 
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th,
+.table-bordered
+{
+      border: 1px solid #333 !important;  
+}
